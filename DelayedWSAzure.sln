@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelayedWSAzure", "DelayedWSAzure\DelayedWSAzure.csproj", "{CC3335E8-FDA0-40FC-8824-4FA5ACD2B9B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5A4FB96E-2915-4EFE-9968-154629A8D14E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C755A1B6-CC19-4B1D-8FB7-B9A94EF30D59}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{5C25624A-972B-4F30-A1CB-E4AD06189E4D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DelayedWSAzure.json = PublishScripts\Templates\DelayedWSAzure.json
+		PublishScripts\Templates\DelayedWSAzure.param.dev.json = PublishScripts\Templates\DelayedWSAzure.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC3335E8-FDA0-40FC-8824-4FA5ACD2B9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3335E8-FDA0-40FC-8824-4FA5ACD2B9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3335E8-FDA0-40FC-8824-4FA5ACD2B9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3335E8-FDA0-40FC-8824-4FA5ACD2B9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C755A1B6-CC19-4B1D-8FB7-B9A94EF30D59} = {5A4FB96E-2915-4EFE-9968-154629A8D14E}
+		{5C25624A-972B-4F30-A1CB-E4AD06189E4D} = {5A4FB96E-2915-4EFE-9968-154629A8D14E}
+	EndGlobalSection
+EndGlobal

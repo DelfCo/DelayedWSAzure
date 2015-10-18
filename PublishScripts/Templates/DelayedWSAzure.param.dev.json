@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "DelayedWSAzure"
+  },
+  "hostingPlanName": {
+    "value": "Default1"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "4dbc1827-29f5-4524-98be-1c8d8d5c7259"
+  },
+  "resourceGroup": {
+    "value": "Default-Web-WestUS"
+  }
+}
